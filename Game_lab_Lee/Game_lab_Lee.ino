@@ -9,7 +9,7 @@ const int rs = 7, en = 8, d4 = 9, d5 = 10, d6 = 11, d7 = 12;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);  // Create an LCD object
 void reactionGame() {
   lcd.clear();             // Clear the LCD screen
-  lcd.print("GET READY");  // Inform the player to get ready
+  lcd.print("Hello, World!");  // Inform the player to get ready
 
   // Generate a random delay between 3 to 6 seconds (3000-6000 ms) ...
   // Use the function random(); to help achieve that. Look it up how it works.
@@ -58,5 +58,5 @@ void loop() {
   delay(200);
 
   // Call the function that runs the reaction timer game
-  reactionGame();  // Need to be defined!!!
+  reactionGame();  // Runs the Game
 }
